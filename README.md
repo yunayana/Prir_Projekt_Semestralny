@@ -66,4 +66,16 @@ git clone https://github.com/yunayana/tmge_prir.git
 cd tmge_prir
 docker-compose up --build
 http://localhost:5003
+```
+## 🖼 Zrzuty ekranu
+
+### Terminal 
+![Terminal output](images/building.png)
+
+### Docker - obrazy kontenerów
+![Docker images](images/docker.png)
+
+### Baza - zrzut z MongoDB
+![Data_Mongo](images/base.png)
+
 
