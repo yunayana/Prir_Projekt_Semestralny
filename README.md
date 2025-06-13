@@ -40,18 +40,19 @@ tmge_prir/
 │   │   │   ├── Buck_Tick.jpg
 │   │   │   └── ...
 │   │   └── style.css            # Stylizacja aplikacji webowej (ciemny, rockowy klimat)
-│   ├── requirements.txt         # Biblioteki wymagane przez Flask GUI
-│   └── Dockerfile               # Obraz Dockera dla interfejsu
+│   ├── requirements.txt         # Wymagane biblioteki dla GUI
+│   └── Dockerfile               # Obraz Dockera dla interfejsu Flask
 │
 ├── scraper/                     # Silnik scrapujący dane (asynchroniczny + multiprocessing)
-│   ├── scraper.py               # Główna logika scrapera z asyncio i multiprocessing
-│   ├── mongo_test.py            # Testowe połączenie z MongoDB
-│   ├── requirements.txt         # Wymagane biblioteki (beautifulsoup4, aiohttp, pymongo itd.)
+│   ├── scraper.py               # Główna logika scrapera (asyncio, multiprocessing)
+│   ├── mongo_test.py            # Testowe połączenie z bazą MongoDB
+│   ├── requirements.txt         # Wymagane biblioteki (BeautifulSoup, aiohttp, pymongo, itd.)
 │   └── Dockerfile               # Obraz Dockera dla scrapera
 │
-├── docker-compose.yml           # Kompozycja Dockera – łączy GUI, scraper i MongoDB
+├── docker-compose.yml           # Kompozycja Dockera – uruchamia GUI, scraper i MongoDB
 │
-├── README.md                    # Opis projektu, technologii, instrukcja uruchomienia
+└── README.md                    # Opis projektu, instalacji i uruchomienia
+
 
 
 ### 📦 Moduły Dockera
