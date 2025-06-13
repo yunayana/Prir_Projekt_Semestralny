@@ -70,7 +70,7 @@ http://localhost:5003
 ## 🖼 Zrzuty ekranu
 
 ### Terminal 
-![Terminal output](images/building.png)
+![Terminal output](https://github.com/yunayana/Prir_Projekt_Semestralny/blob/main/images/building%20.png?raw=true)
 
 ### Docker - obrazy kontenerów
 ![Docker images](images/docker.png)
