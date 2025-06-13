@@ -29,29 +29,26 @@ Pobrane dane dzielą się na 4 główne grupy:
 
 ## 🧠 Architektura
 
-tmge_prir/
-│
-├── gui/                         # Moduł interfejsu użytkownika (Flask)
-│   ├── app.py                   # Główna aplikacja Flask – serwuje dane z MongoDB
-│   ├── templates/               # Szablony HTML (index.html, band_detail.html, 404.html)
-│   ├── static/                  # Pliki statyczne
-│   │   ├── img/                 # Zdjęcia zespołów
-│   │   │   ├── Band_Maid.jpg
-│   │   │   ├── Buck_Tick.jpg
-│   │   │   └── ...
-│   │   └── style.css            # Stylizacja aplikacji webowej (ciemny, rockowy klimat)
-│   ├── requirements.txt         # Wymagane biblioteki dla GUI
-│   └── Dockerfile               # Obraz Dockera dla interfejsu Flask
-│
-├── scraper/                     # Silnik scrapujący dane (asynchroniczny + multiprocessing)
-│   ├── scraper.py               # Główna logika scrapera (asyncio, multiprocessing)
-│   ├── mongo_test.py            # Testowe połączenie z bazą MongoDB
-│   ├── requirements.txt         # Wymagane biblioteki (BeautifulSoup, aiohttp, pymongo, itd.)
-│   └── Dockerfile               # Obraz Dockera dla scrapera
-│
-├── docker-compose.yml           # Kompozycja Dockera – uruchamia GUI, scraper i MongoDB
-│
-└── README.md                    # Opis projektu, instalacji i uruchomienia
+
+- tmge_prir/
+  - gui/
+    - app.py
+    - templates/
+    - static/
+      - img/
+        - Band_Maid.jpg
+        - Buck_Tick.jpg
+      - style.css
+    - requirements.txt
+    - Dockerfile
+  - scraper/
+    - scraper.py
+    - mongo_test.py
+    - requirements.txt
+    - Dockerfile
+  - docker-compose.yml
+  - README.md
+
 
 
 
