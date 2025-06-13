@@ -65,4 +65,5 @@ Pobrane dane dzielą się na 4 główne grupy:
 git clone https://github.com/yunayana/tmge_prir.git
 cd tmge_prir
 docker-compose up --build
+http://localhost:5003
 
