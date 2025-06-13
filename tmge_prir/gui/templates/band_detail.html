@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ band.name }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+    <img src="{{ band.image }}" alt="{{ band.name }}" class="full-image">
+    <h1>{{ band.name }}</h1>
+    <p><strong>Opis:</strong> {{ band.summary }}</p>
+    <p><strong>Gatunek:</strong> {{ band.genre }}</p>
+    <p><strong>Pochodzenie:</strong> {{ band.origin }}</p>
+    <p><strong>Aktywność:</strong> {{ band.years_active }}</p>
+    <p><a href="{{ band.url }}" target="_blank">Wikipedia</a></p>
+    <a class="back-link" href="/">← Wróć</a>
+</div>
+
+
+</body>
+</html>

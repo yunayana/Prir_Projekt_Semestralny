@@ -1,0 +1,6 @@
+flask
+pymongo
+dnspython
+certifi
+beautifulsoup4
+aiohttp

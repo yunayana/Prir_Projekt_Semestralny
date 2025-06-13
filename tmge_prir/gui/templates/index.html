@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>J-Rock Bands</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="grunge-title">Japońskie zespoły rockowe</h1>
+    <div class="band-grid">
+        {% for band in bands %}
+        <div class="band-card">
+            <a href="/band/{{ band.url[8:] }}">
+                <h2>{{ band.name }}</h2>
+            </a>
+            <p>{{ band.genre }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</body>
+</html>
