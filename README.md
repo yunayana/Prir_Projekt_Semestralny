@@ -55,6 +55,7 @@ tmge_prir/
 
 
 
+
 ### 📦 Moduły Dockera
 
 - `frontend`: Serwer Flask (interfejs użytkownika)
